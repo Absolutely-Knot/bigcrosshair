@@ -1,0 +1,41 @@
+	"Crosshair_vertical"
+    {
+        "ControlName"       "ImagePanel"
+        "fieldName"     "VerticalLine"
+        "xpos"          "383"  //was 427
+        "xpos_lodef"    "279"  //was 279
+        "xpos_hidef"    "309"  //was 309
+        "ypos"          "0"  //was 75
+        "zpos"          "-5"
+        "wide"          "3"   //was 1
+        "tall"          "480" //was 154, 480 is hud dims on 1920 x 1080
+        "tall_lodef"    "206"
+        "tall_hidef"    "212"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "255 255 255 25"
+        "alpha" "50"
+    }
+ 
+    "Crosshair_horizontal"   //this is the one that spans the screen
+    {
+        "ControlName"       "ImagePanel"
+        "fieldName"     "VerticalLine"
+        "xpos"          "0"  //was 40
+        "xpos_lodef"    "279"
+        "xpos_hidef"    "309"
+        "ypos"          "239"  //was 240
+        "zpos"          "-5"
+        "wide"          "854" //was 374
+        "tall"          "3"    //was 1
+        "tall_lodef"    "206"
+        "tall_hidef"    "212"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "255 255 255 25"
+        "alpha" "50"
+    }
